@@ -8,7 +8,7 @@ namespace Chillzone.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index() //second comment
+        public ActionResult Index() //sencond comment
         {
             return View();
         }
