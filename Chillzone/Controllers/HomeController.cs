@@ -16,7 +16,7 @@ namespace Chillzone.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Edited string. Again.";
+            ViewBag.Message = "Edited string. Again. Committing";
 
             return View();
         }
