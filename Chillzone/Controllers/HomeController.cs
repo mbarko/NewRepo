@@ -8,7 +8,7 @@ namespace Chillzone.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index() //Moataz change
+        public ActionResult Index() //Moataz change 2
         
         {
             return View();
