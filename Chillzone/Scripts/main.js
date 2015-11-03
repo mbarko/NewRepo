@@ -39,16 +39,16 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/beach.jpg': 'center',
-							'images/camping.jpg': 'center',
-							'images/hangout.jpg': 'center',
-							'images/room1.jpg': 'center',
-							'images/bar.jpg': 'center',
-							'images/street.jpg': 'center',
-							'images/lounge.jpg': 'center',
-							'images/gameroom.jpg': 'center',
-							'images/basement.jpg': 'center',
-							'images/bar.jpg': 'center'
+							'~images/beach.jpg': 'center',
+							'~/images/camping.jpg': 'center',
+							'~/images/hangout.jpg': 'center',
+							'~/images/room1.jpg': 'center',
+							'~/images/bar.jpg': 'center',
+							'~/images/street.jpg': 'center',
+							'~/images/lounge.jpg': 'center',
+							'~/images/gameroom.jpg': 'center',
+							'~/images/basement.jpg': 'center',
+							'~/images/bar.jpg': 'center'
 						},
 
 					// Delay.
