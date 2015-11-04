@@ -1,10 +1,9 @@
 ﻿@{
     var attributes = new Dictionary<string, object>();
 
-    attributes.Add("type", "email");
-    
+    attributes.Add("type", "datetime");
+
     attributes.Add("class", "text-box single-line");
-    attributes.Add("placeholder", ViewData.ModelMetadata.Watermark);
 
     //since this is a constraint, IsRequired and other constraints 
     //won't necessarily apply in the browser, but in case script 
