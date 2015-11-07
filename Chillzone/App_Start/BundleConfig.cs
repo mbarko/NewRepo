@@ -9,7 +9,7 @@ namespace Chillzone
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js", "~/Scripts/main.js"));
+                        "~/Scripts/jquery-{version}.js", "~/Scripts/main.js", "~/Scripts/vertical-tabs.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

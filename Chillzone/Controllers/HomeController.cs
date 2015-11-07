@@ -14,6 +14,12 @@ namespace Chillzone.Controllers
             return View();
         }
 
+        public ActionResult Room()
+        //Adding a controller to the Room.cshtml View
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Edited string 2.";
