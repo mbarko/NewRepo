@@ -3,11 +3,79 @@
 }
 
 
+<div class="container">
+
+    <!--Add Friend Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!--Add Friend Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="text-align:center" class="modal-title">
+                        Link To House: <a href="http://www.w3schools.com/html/"> http://www.w3schools.com/html/</a>
+                        <br />
+                        <br />
+                      
+                        Send this lint to:
+                        <br />
+
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputFacebook3" class="col-sm-2 control-label">Facebook</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputFacebook3" placeholder="Facebook">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputTwitter3" class="col-sm-2 control-label">Twitter</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputTwitter3" placeholder="Twitter">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputInstagram3" class="col-sm-2 control-label">Instagram</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputInstagram3" placeholder="Instagram">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage3" class="col-sm-2 control-label"></label>
+                            <div class="col-sm-10 ">
+                               <textarea rows="4"placeholder="Message(Optional)." cols="60"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group modal-footer">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" data-dismiss="modal" class="btn btn-default">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 <div id="tabs">
     <ul style="padding-left: 0px;">
         <li><a href="#tabs-1">Conversation</a></li>
         <li><a href="#tabs-2">Planning Tool</a></li>
         <li><a href="#tabs-3">The Game Room</a></li>
+        <li>   <!-- Trigger the modal with a buttosn -->
+<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal">Add Friend</button></li>
     </ul>
     <div id="tabs-1">
         One Contents

@@ -5,6 +5,11 @@
 	padding: 0;
 	overflow: hidden;
 }
+#tabs li button {
+
+    width:10em;
+
+}
 .ui-tabs-vertical .ui-widget-header { border: none; }
 .ui-tabs-vertical .ui-tabs-nav {
 	float: right;
