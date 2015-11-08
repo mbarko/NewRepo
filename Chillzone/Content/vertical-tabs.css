@@ -72,6 +72,8 @@
 .chat-box-div {
     border:2px solid #D9D7D9;
     border-bottom:2px solid #D9D7D9;
+    margin: 5em 10em 20em 10em;
+
 } 
 .chat-box-head {
     padding: 10px 15px;
