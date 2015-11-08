@@ -192,6 +192,8 @@
     <Content Include="images\bar.jpg.crdownload" />
     <Content Include="images\me.jpg" />
     <Content Include="images\mizo.jpg" />
+    <Content Include="images\pin.png" />
+    <Content Include="images\Plane.png" />
     <Content Include="images\room.jpg.crdownload" />
     <None Include=".bin\node.cmd" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
