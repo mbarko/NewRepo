@@ -24,7 +24,7 @@ namespace Chillzone
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css", "~/Content/main.css",
+                      "~/Content/bootstrap.css", "~/Content/main.css","~/Content/new.css",
                       "~/Content/site.css"));
         }
     }
